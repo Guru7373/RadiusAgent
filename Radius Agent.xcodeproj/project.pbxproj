@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77A7CAEF2798752300039A1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A7CAEE2798752300039A1F /* AppDelegate.swift */; };
+		77A7CAF12798752300039A1F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A7CAF02798752300039A1F /* SceneDelegate.swift */; };
+		77A7CAF32798752300039A1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A7CAF22798752300039A1F /* ViewController.swift */; };
+		77A7CAF62798752300039A1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77A7CAF42798752300039A1F /* Main.storyboard */; };
+		77A7CAF82798752A00039A1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77A7CAF72798752A00039A1F /* Assets.xcassets */; };
+		77A7CAFB2798752A00039A1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77A7CAF92798752A00039A1F /* LaunchScreen.storyboard */; };
+		77A7CB062798752D00039A1F /* Radius_AgentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A7CB052798752D00039A1F /* Radius_AgentTests.swift */; };
+		77A7CB102798752F00039A1F /* Radius_AgentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A7CB0F2798752F00039A1F /* Radius_AgentUITests.swift */; };
+		77A7CB122798752F00039A1F /* Radius_AgentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A7CB112798752F00039A1F /* Radius_AgentUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		77A7CB022798752C00039A1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77A7CAE32798752200039A1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77A7CAEA2798752200039A1F;
+			remoteInfo = "Radius Agent";
+		};
+		77A7CB0C2798752F00039A1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77A7CAE32798752200039A1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77A7CAEA2798752200039A1F;
+			remoteInfo = "Radius Agent";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		77A7CAEB2798752200039A1F /* Radius Agent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Radius Agent.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77A7CAEE2798752300039A1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		77A7CAF02798752300039A1F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		77A7CAF22798752300039A1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		77A7CAF52798752300039A1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		77A7CAF72798752A00039A1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77A7CAFA2798752A00039A1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		77A7CAFC2798752A00039A1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77A7CB012798752C00039A1F /* Radius AgentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Radius AgentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77A7CB052798752D00039A1F /* Radius_AgentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Radius_AgentTests.swift; sourceTree = "<group>"; };
+		77A7CB0B2798752F00039A1F /* Radius AgentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Radius AgentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77A7CB0F2798752F00039A1F /* Radius_AgentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Radius_AgentUITests.swift; sourceTree = "<group>"; };
+		77A7CB112798752F00039A1F /* Radius_AgentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Radius_AgentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77A7CAE82798752200039A1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77A7CAFE2798752C00039A1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77A7CB082798752F00039A1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77A7CAE22798752200039A1F = {
+			isa = PBXGroup;
+			children = (
+				77A7CAED2798752300039A1F /* Radius Agent */,
+				77A7CB042798752D00039A1F /* Radius AgentTests */,
+				77A7CB0E2798752F00039A1F /* Radius AgentUITests */,
+				77A7CAEC2798752200039A1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77A7CAEC2798752200039A1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77A7CAEB2798752200039A1F /* Radius Agent.app */,
+				77A7CB012798752C00039A1F /* Radius AgentTests.xctest */,
+				77A7CB0B2798752F00039A1F /* Radius AgentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77A7CAED2798752300039A1F /* Radius Agent */ = {
+			isa = PBXGroup;
+			children = (
+				77A7CAEE2798752300039A1F /* AppDelegate.swift */,
+				77A7CAF02798752300039A1F /* SceneDelegate.swift */,
+				77A7CAF22798752300039A1F /* ViewController.swift */,
+				77A7CAF42798752300039A1F /* Main.storyboard */,
+				77A7CAF72798752A00039A1F /* Assets.xcassets */,
+				77A7CAF92798752A00039A1F /* LaunchScreen.storyboard */,
+				77A7CAFC2798752A00039A1F /* Info.plist */,
+			);
+			path = "Radius Agent";
+			sourceTree = "<group>";
+		};
+		77A7CB042798752D00039A1F /* Radius AgentTests */ = {
+			isa = PBXGroup;
+			children = (
+				77A7CB052798752D00039A1F /* Radius_AgentTests.swift */,
+			);
+			path = "Radius AgentTests";
+			sourceTree = "<group>";
+		};
+		77A7CB0E2798752F00039A1F /* Radius AgentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				77A7CB0F2798752F00039A1F /* Radius_AgentUITests.swift */,
+				77A7CB112798752F00039A1F /* Radius_AgentUITestsLaunchTests.swift */,
+			);
+			path = "Radius AgentUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77A7CAEA2798752200039A1F /* Radius Agent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77A7CB152798752F00039A1F /* Build configuration list for PBXNativeTarget "Radius Agent" */;
+			buildPhases = (
+				77A7CAE72798752200039A1F /* Sources */,
+				77A7CAE82798752200039A1F /* Frameworks */,
+				77A7CAE92798752200039A1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Radius Agent";
+			productName = "Radius Agent";
+			productReference = 77A7CAEB2798752200039A1F /* Radius Agent.app */;
+			productType = "com.apple.product-type.application";
+		};
+		77A7CB002798752C00039A1F /* Radius AgentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77A7CB182798752F00039A1F /* Build configuration list for PBXNativeTarget "Radius AgentTests" */;
+			buildPhases = (
+				77A7CAFD2798752C00039A1F /* Sources */,
+				77A7CAFE2798752C00039A1F /* Frameworks */,
+				77A7CAFF2798752C00039A1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77A7CB032798752C00039A1F /* PBXTargetDependency */,
+			);
+			name = "Radius AgentTests";
+			productName = "Radius AgentTests";
+			productReference = 77A7CB012798752C00039A1F /* Radius AgentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		77A7CB0A2798752F00039A1F /* Radius AgentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77A7CB1B2798752F00039A1F /* Build configuration list for PBXNativeTarget "Radius AgentUITests" */;
+			buildPhases = (
+				77A7CB072798752F00039A1F /* Sources */,
+				77A7CB082798752F00039A1F /* Frameworks */,
+				77A7CB092798752F00039A1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77A7CB0D2798752F00039A1F /* PBXTargetDependency */,
+			);
+			name = "Radius AgentUITests";
+			productName = "Radius AgentUITests";
+			productReference = 77A7CB0B2798752F00039A1F /* Radius AgentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77A7CAE32798752200039A1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					77A7CAEA2798752200039A1F = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					77A7CB002798752C00039A1F = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 77A7CAEA2798752200039A1F;
+					};
+					77A7CB0A2798752F00039A1F = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 77A7CAEA2798752200039A1F;
+					};
+				};
+			};
+			buildConfigurationList = 77A7CAE62798752200039A1F /* Build configuration list for PBXProject "Radius Agent" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77A7CAE22798752200039A1F;
+			productRefGroup = 77A7CAEC2798752200039A1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77A7CAEA2798752200039A1F /* Radius Agent */,
+				77A7CB002798752C00039A1F /* Radius AgentTests */,
+				77A7CB0A2798752F00039A1F /* Radius AgentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77A7CAE92798752200039A1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77A7CAFB2798752A00039A1F /* LaunchScreen.storyboard in Resources */,
+				77A7CAF82798752A00039A1F /* Assets.xcassets in Resources */,
+				77A7CAF62798752300039A1F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77A7CAFF2798752C00039A1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77A7CB092798752F00039A1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77A7CAE72798752200039A1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77A7CAF32798752300039A1F /* ViewController.swift in Sources */,
+				77A7CAEF2798752300039A1F /* AppDelegate.swift in Sources */,
+				77A7CAF12798752300039A1F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77A7CAFD2798752C00039A1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77A7CB062798752D00039A1F /* Radius_AgentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77A7CB072798752F00039A1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77A7CB122798752F00039A1F /* Radius_AgentUITestsLaunchTests.swift in Sources */,
+				77A7CB102798752F00039A1F /* Radius_AgentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		77A7CB032798752C00039A1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77A7CAEA2798752200039A1F /* Radius Agent */;
+			targetProxy = 77A7CB022798752C00039A1F /* PBXContainerItemProxy */;
+		};
+		77A7CB0D2798752F00039A1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77A7CAEA2798752200039A1F /* Radius Agent */;
+			targetProxy = 77A7CB0C2798752F00039A1F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		77A7CAF42798752300039A1F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77A7CAF52798752300039A1F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		77A7CAF92798752A00039A1F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77A7CAFA2798752A00039A1F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77A7CB132798752F00039A1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		77A7CB142798752F00039A1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77A7CB162798752F00039A1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Radius Agent/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.agentdesks.Radius-Agent";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77A7CB172798752F00039A1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Radius Agent/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.agentdesks.Radius-Agent";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		77A7CB192798752F00039A1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.agentdesks.Radius-AgentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Radius Agent.app/Radius Agent";
+			};
+			name = Debug;
+		};
+		77A7CB1A2798752F00039A1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.agentdesks.Radius-AgentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Radius Agent.app/Radius Agent";
+			};
+			name = Release;
+		};
+		77A7CB1C2798752F00039A1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.agentdesks.Radius-AgentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Radius Agent";
+			};
+			name = Debug;
+		};
+		77A7CB1D2798752F00039A1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.agentdesks.Radius-AgentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Radius Agent";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77A7CAE62798752200039A1F /* Build configuration list for PBXProject "Radius Agent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77A7CB132798752F00039A1F /* Debug */,
+				77A7CB142798752F00039A1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77A7CB152798752F00039A1F /* Build configuration list for PBXNativeTarget "Radius Agent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77A7CB162798752F00039A1F /* Debug */,
+				77A7CB172798752F00039A1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77A7CB182798752F00039A1F /* Build configuration list for PBXNativeTarget "Radius AgentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77A7CB192798752F00039A1F /* Debug */,
+				77A7CB1A2798752F00039A1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77A7CB1B2798752F00039A1F /* Build configuration list for PBXNativeTarget "Radius AgentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77A7CB1C2798752F00039A1F /* Debug */,
+				77A7CB1D2798752F00039A1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77A7CAE32798752200039A1F /* Project object */;
+}
